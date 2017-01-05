@@ -8,7 +8,7 @@ Usage
 ./pol2reg.pl -c HKLM|HKCU input.pol
 
 will read input.pol and dump a corresponding .reg file to standard output. The -c option is mandatory, 
-and must be either HKLM or HKCU, correpsonding to the HKEY_LOCAL_MACHINE and HKEY_CURRENT_USER brances
+and must be either HKLM or HKCU, correpsonding to the HKEY_LOCAL_MACHINE and HKEY_CURRENT_USER branches
 of the registry respectively.
 
 Alternatively, the input can be read from stdin:

@@ -43,7 +43,7 @@ for are 005b, 003b, and 005d respectively). Similarly, the key and value are nul
 UTF-16LE null (0000)
 
 Also, the [Registry Policy Message Syntax][2] gives a specification that is claimed to follow ABNF as 
-specified in RFC4234, but strictly the syntax is /not/ RFC4234 compliant: RFC4234 defines rules such 
+specified in [RFC4234][3], but strictly the syntax is /not/ RFC4234 compliant: RFC4234 defines rules such 
 as SP, VCHAR in their ASCII representations, but the rule defining
 
  ValueCharacter = SP / VCHAR

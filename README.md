@@ -52,10 +52,12 @@ needs to be read as the UTF-16LE versions of 0x20 or 0x21-7e respectively.
 
 Links
 -----
-Registry Policy File Format:
+[Registry Policy File Format][1]
+
+[Registry Policy Message Syntax][2]
+
+[RFC4234][3]
 
 [1]: https://msdn.microsoft.com/en-us/library/aa374407(v=vs.85).aspx
-
-Registry Policy Message Syntax:
-
 [2]: https://msdn.microsoft.com/en-us/library/cc232696.aspx
+[3]: http://www.rfc-editor.org/rfc/rfc4234.txt

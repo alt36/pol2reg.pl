@@ -10,10 +10,10 @@ local $/;
 
 my $context;
 
-GetOptions ("context|=s" => \$context);
+GetOptions ("context|c=s" => \$context);
 
 sub usage {
-  print "Usage: $0 --context=HKLM|HKCU\n";
+  print "Usage: $0 --context HKLM|HKCU\n";
   exit 1;
 }
 
